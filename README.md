@@ -4,6 +4,7 @@ Applicación Posts-App Permite modificar, borrar, y agregar posts utilizando tec
 
 dentro del proyecto usar el siguiente comando:
 
+### `npm i`
 ### `npm start`
 
 Corre en modo desarollo.<br>
