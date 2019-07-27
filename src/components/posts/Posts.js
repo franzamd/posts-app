@@ -109,10 +109,10 @@ class Posts extends Component {
           {loading ? (
             <Spinner />
           ) : (
-            this.state.posts.map(post => {
+            this.state.posts.map((post, index) => {
               return (
                 <PostItem
-                  key={post.id}
+                  key={index}
                   id={post.id}
                   title={post.title}
                   body={post.body}
