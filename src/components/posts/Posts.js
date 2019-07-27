@@ -57,6 +57,8 @@ class Posts extends Component {
 
   onDelete = id => {
     this.props.deletePost(this.state.posts, id);
+
+    this.setState({ postSelected: { id: '', title: '', body: '' } });
   };
 
   onChangeText = e => {
